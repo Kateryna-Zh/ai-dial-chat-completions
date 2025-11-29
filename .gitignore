@@ -1,0 +1,79 @@
+########################################
+# Python bytecode & cache
+########################################
+*.py[cod]
+__pycache__/
+**/__pycache__/
+
+########################################
+# Virtual environments
+########################################
+venv/
+.venv/
+env/
+ENV/
+
+########################################
+# VS Code / IDE settings
+########################################
+.vscode/
+.idea/
+*.code-workspace
+
+########################################
+# Python packaging
+########################################
+build/
+dist/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+########################################
+# Jupyter Notebook checkpoints
+########################################
+.ipynb_checkpoints/
+
+########################################
+# Logs, dumps, temp files
+########################################
+*.log
+*.out
+*.tmp
+*.swp
+*.swo
+*.png
+
+########################################
+# Tests & coverage
+########################################
+htmlcov/
+.coverage
+coverage.xml
+.cache/
+.pytest_cache/
+nosetests.xml
+junit.xml
+
+########################################
+# Environment / secrets
+########################################
+.env
+.env.*
+*.env
+*.secret
+
+########################################
+# OS-specific
+########################################
+.DS_Store
+Thumbs.db
+
+########################################
+# Project-specific exclusions
+########################################
+
+# Task-specific caches
+task/__pycache__/
+task/clients/__pycache__/
+task/models/__pycache__/
